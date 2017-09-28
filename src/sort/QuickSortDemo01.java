@@ -1,7 +1,7 @@
 package sort;
 
 /**
- * 快速排序
+ * 快速排序，时间复杂度为 O(NlogN)
  * @author ge.chen
  *
  */
@@ -16,7 +16,7 @@ public class QuickSortDemo01 {
 			}
 			array[low] = array[high] ;
 			
-			while(low<high&&array[low]<=flag){
+			while(low<high&&array[low]<flag){
 				low++ ;
 			}
 			array[high] = array[low] ;
