@@ -1,5 +1,12 @@
 package cese;
 
+import net.sourceforge.pinyin4j.PinyinHelper;
+import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;
+import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
+import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;
+import net.sourceforge.pinyin4j.format.HanyuPinyinVCharType;
+import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination;
+
 public class PinYinDemo01 {
 	/** 
      * 将汉字转换为全拼 
@@ -66,8 +73,7 @@ public class PinYinDemo01 {
         StringBuffer strBuf = new StringBuffer();  
         // 将字符串转换成字节序列  
         byte[] bGBK = cnStr.getBytes();  
-        for (int i = 0; i < bGBK.length; i++) {  
-            // System.out.println(Integer.toHexString(bGBK[i] & 0xff));  
+        for (int i = 0; i < bGBK.length; i++) {   
             // 将每个字符转换成ASCII码  
             strBuf.append(Integer.toHexString(bGBK[i] & 0xff)+" ");  
         }  
@@ -78,6 +84,6 @@ public class PinYinDemo01 {
         String cnStr = "兖州泸州溧阳衢州";  
         System.out.println(getPinYin(cnStr));  
         System.out.println(getPinYinHeadChar(cnStr));  
-//      System.out.println(getCnASCII(cnStr));  
+        //System.out.println(getCnASCII(cnStr));  
     }
 }

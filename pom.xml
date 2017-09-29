@@ -3,27 +3,22 @@
   <groupId>Java_Algorithms</groupId>
   <artifactId>Java_Algorithms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
   
-    <dependencies>
-  	  <!-- https://mvnrepository.com/artifact/com.belerweb/pinyin4j -->
+  <name>Java_Algorithms</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+   <dependencies>
+	  <!-- https://mvnrepository.com/artifact/com.belerweb/pinyin4j -->
 	  <dependency>
 	      <groupId>com.belerweb</groupId>
 	      <artifactId>pinyin4j</artifactId>
-	      <version>2.5.1</version>
+	      <version>2.5.0</version>
 	  </dependency>
-  	</dependencies>
+	  
+ 	</dependencies>
   
 </project>
