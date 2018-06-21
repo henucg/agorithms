@@ -9,10 +9,10 @@ package compareStr;
 public class Test01 {
 
 	public static void main(String[] args) {
-		System.out.println(geDescVersion("2","1.a")) ;
+		System.out.println(getDescVersion("2","1.a")) ;
 	}
 	
-	public static String geDescVersion(String version1,String version2) {
+	public static String getDescVersion(String version1,String version2) {
 		if(version1 != null && !"".equals(version1) && version2!=null && !"".equals(version2)) {
 			String[] v1 = version1.split("\\.");
 			String[] v2 = version2.split("\\.");
