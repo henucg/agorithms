@@ -10,6 +10,8 @@ public class DateTest01 {
 
 	public static void main(String[] args) {
 		boolean isLeapYear = false ;
+		int d = 0 ;			//每月天数
+		
 		for(int i=1;i<=428575;i++) {
 			//判断是否是闰年
 			if(i%4 == 0 && i%100 != 0 || i%400 == 0) {
@@ -17,7 +19,6 @@ public class DateTest01 {
 			}
 			
 			for(int j=1;j<=12;j++) {
-				int d = 0 ;
 				if(j == 1 || j ==  3 || j ==  5 || j ==  7 || j ==  8 || j ==  10 || j ==  12) {
 					d = 31 ;
 				}else if(j == 4 || j == 6 || j == 9 || j == 11) {
