@@ -9,7 +9,7 @@ package compareStr;
 public class Test01 {
 
 	public static void main(String[] args) {
-		System.out.println(getDescVersion("2","1.a")) ;
+		System.out.println(getDescVersion("1.b","1.a")) ;
 	}
 	
 	public static String getDescVersion(String version1,String version2) {
