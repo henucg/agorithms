@@ -3,7 +3,7 @@ package 螺旋数组;
 public class Test01 {
 
 	public static void main(String[] args) {
-		int n = 5 ;
+		int n = 10 ;
 		
 		int[][] array = getArray(n) ;
 		
