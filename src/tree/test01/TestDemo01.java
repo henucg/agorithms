@@ -1,5 +1,7 @@
 package tree.test01;
 
+import java.util.Stack;
+
 public class TestDemo01 {
 
     public static String str = "" ;
@@ -19,6 +21,9 @@ public class TestDemo01 {
         System.out.println("先序遍历：" + (str="") + getNodeByPre(treeNode));
         System.out.println("中序遍历：" + (str="") + getNodeByMiddle(treeNode));
         System.out.println("后序遍历：" + (str="") + getNodeByPri(treeNode));
+
+        System.out.println("先序遍历(非递归)：" + (str="") + getNodeByPre2(treeNode));
+        System.out.println("中序遍历(非递归)：" + (str="") + getNodeByMiddle2(treeNode));
     }
 
     /**
@@ -77,6 +82,50 @@ public class TestDemo01 {
             }
 
             str += node.getRoot() ;
+        }
+        return str ;
+    }
+
+
+    /**
+     * 先序遍历非递归
+     * @param node
+     * @return
+     */
+    public static String getNodeByPre2(TreeNode node) {
+        Stack<TreeNode> s = new Stack<TreeNode>();
+        while (node != null || !s.empty()) {
+            while (node != null) {
+                str += node.getRoot();
+                s.push(node);
+                node = node.getLeftNode();
+            }
+            if (!s.empty()) {
+                node = s.pop();
+                node = node.getRightNode();
+            }
+        }
+        return str ;
+    }
+
+    /**
+     * 中序遍历非递归
+     * @param node
+     * @return
+     */
+    public static String getNodeByMiddle2(TreeNode node){
+        Stack<TreeNode> s = new Stack<TreeNode>() ;
+        while(node!=null || !s.empty()){
+            while(node!=null){
+                s.push(node) ;
+                node = node.getLeftNode() ;
+            }
+
+            if(!s.empty()){
+                node = s.pop() ;
+                str += node.getRoot() ;
+                node = node.getRightNode() ;
+            }
         }
         return str ;
     }
