@@ -42,7 +42,7 @@ public class TestDemo01 {
     }
 
     /**
-     * 先序遍历
+     * 中序遍历
      * @param node
      * @return
      */
