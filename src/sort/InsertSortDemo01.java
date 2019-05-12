@@ -2,6 +2,10 @@ package sort;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序，排序的数据比较少的时候使用
+ */
+
 public class InsertSortDemo01 {
 	public static void main(String[] args) {
 		int[] arr1 = {99, 11, 66, 28, 67, 7};
