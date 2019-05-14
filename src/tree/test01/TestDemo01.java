@@ -1,6 +1,5 @@
 package tree.test01;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -24,6 +23,7 @@ public class TestDemo01 {
         System.out.println("先序遍历：" + (str="") + getNodeByPre(treeNode));
         System.out.println("中序遍历：" + (str="") + getNodeByMiddle(treeNode));
         System.out.println("后序遍历：" + (str="") + getNodeByPri(treeNode));
+        System.out.println("层序遍历：" + (str="") + getNodeByLevel(treeNode,null));
 
         System.out.println("先序遍历(非递归)：" + (str="") + getNodeByPre2(treeNode));
         System.out.println("中序遍历(非递归)：" + (str="") + getNodeByMiddle2(treeNode));
@@ -35,6 +35,10 @@ public class TestDemo01 {
         //左右子树交换
         TreeNode node = changeNode(treeNode) ;
         System.out.println(node);
+
+        System.out.println("后序遍历(非递归)：" + (str="") + getNodeByPri2(treeNode));
+        System.out.println("层序遍历(非递归)：" + (str="") + getNodeByLevel2(treeNode));
+
     }
 
     /**
@@ -97,6 +101,36 @@ public class TestDemo01 {
         return str ;
     }
 
+    /**
+     * 层序遍历
+     * @param node
+     * @return
+     */
+    public static String getNodeByLevel(TreeNode node,Queue<TreeNode> q){
+        if(node != null){
+            Queue<TreeNode> queue = null ;
+            if(q == null){
+                queue = new LinkedList<TreeNode>();
+            }else{
+                queue = q ;
+            }
+
+            str += node.getRoot() ;
+
+            if(node.getLeftNode()!=null){
+                queue.add(node.getLeftNode()) ;
+            }
+            if(node.getRightNode()!=null){
+                queue.add(node.getRightNode()) ;
+            }
+
+            if(!queue.isEmpty()){
+                getNodeByLevel(queue.poll(),queue) ;
+            }
+        }
+        return str ;
+    }
+
 
     /**
      * 先序遍历非递归
@@ -129,8 +163,7 @@ public class TestDemo01 {
         while(node!=null || !s.empty()){
             while(node!=null){
                 s.push(node) ;
-                node = node.getLeftNode() ;
-            }
+                node = node.getLeftNode() ; }
 
             if(!s.empty()){
                 node = s.pop() ;
@@ -203,5 +236,56 @@ public class TestDemo01 {
     	changeNode(node.getRightNode()) ;
     	
     	return node ;
+    }
+
+    /**
+     * 后续遍历非递归
+     * @param treeNode
+     * @return
+     */
+    public static String getNodeByPri2(TreeNode treeNode){
+        if(treeNode!=null) {
+            Queue<TreeNode> q = new LinkedList<TreeNode>();
+            while(treeNode!=null){
+                if(treeNode.getLeftNode()!=null){
+                    q.add(treeNode.getLeftNode()) ;
+                }
+
+                if(treeNode.getRightNode()!=null){
+                    q.add(treeNode.getRightNode()) ;
+                }
+
+                q.add(treeNode) ;
+
+                treeNode = q.poll() ;
+
+                str += treeNode.getRoot() ;
+            }
+        }
+        return str ;
+    }
+
+    /**
+     * 层序遍历非递归
+     * @param node
+     * @return
+     */
+    public static String getNodeByLevel2(TreeNode node){
+        if(node!=null){
+            Queue<TreeNode> q = new LinkedList<TreeNode>() ;
+            while(node != null) {
+                str += node.getRoot();
+
+                if(node.getLeftNode()!=null){
+                    q.add(node.getLeftNode()) ;
+                }
+                if(node.getRightNode()!=null){
+                    q.add(node.getRightNode()) ;
+                }
+
+                node = q.poll() ;
+            }
+        }
+        return str ;
     }
 }

@@ -1,52 +1,44 @@
 package sort;
 
-/**
- * 快速排序
- * @author chenge
- *
- */
-public class QuickSortDemo02 {
+import java.util.Arrays;
 
+public class QuickSortDemo02 {
 	public static void main(String[] args) {
-		int[] arr = {6,1,2,7,9,3,4,5,10,8} ;
-		
-		arr = sort(arr,0,arr.length-1) ;
-		
-		for(int k=0;k<arr.length;k++) {
-			System.out.print(arr[k] + " ");
-		}
+
+		int[] arr = {23,34,56,22,6,5,78,98,123,55,786,231,23} ;
+		sort(arr,0,arr.length-1) ;
+		System.out.println(Arrays.toString(arr));
 	}
-	
-	public static int[] sort(int[] arr,int left,int right) {
-		if(left>right) {
-			return arr ;
+
+	public static void sort(int[] arr,int low,int high){
+		if(low>high) {
+			return;
 		}
-		
-		int i = left ;
-		int j = right ;
-		
-		while(i<j) {
-			//基数在左边，就从右边开始，可以保证需要跟基数交换的那个数字比基数小
-			while(i<j && arr[j]>arr[left]) {
+
+		int flag = arr[low] ;
+		int i = low ;
+		int j = high ;
+
+		while(i<j){
+			while(i<j && arr[j]>=flag){
 				j-- ;
 			}
-			
-			while(i<j && arr[i]<arr[left]) {
+
+			while(i<j && arr[i]<=flag){
 				i++ ;
 			}
-			
-			int temp = arr[i] ;
-			arr[i] = arr[j] ;
-			arr[j] = temp ;
+
+			if(i<j) {
+				int temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+			}
 		}
-		
-		int temp = arr[i] ;
-		arr[i] = arr[left] ;
-		arr[left] = temp ;
-		
-		sort(arr,left,i-1) ;
-		sort(arr,i+1,right) ;
-		
-		return arr ;
+
+		arr[low] = arr[i] ;
+		arr[i] = flag ;
+
+		sort(arr,low,i-1);
+		sort(arr,i+1,high) ;
 	}
 }
