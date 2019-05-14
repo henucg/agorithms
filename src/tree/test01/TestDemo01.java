@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 构建一棵树，然后实现各种遍历
+ * @author chenge
+ *
+ */
+
 public class TestDemo01 {
 
     public static String str = "" ;
