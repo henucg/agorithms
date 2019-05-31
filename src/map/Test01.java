@@ -10,6 +10,7 @@ public class Test01 {
 		map.put("k1", "v1") ;
 		map.put("k2", "v2") ;
 		
+		System.out.println(map.put("k2", "v3"));
 		System.out.println(map.size());
 		
 		map.remove("k1") ;
