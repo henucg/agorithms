@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 构建一棵树，然后实现各种遍历
+ * @author chenge
+ *
+ */
+
 public class TestDemo01 {
 
     public static String str = "" ;
@@ -27,8 +33,18 @@ public class TestDemo01 {
 
         System.out.println("先序遍历(非递归)：" + (str="") + getNodeByPre2(treeNode));
         System.out.println("中序遍历(非递归)：" + (str="") + getNodeByMiddle2(treeNode));
+        
+        System.out.println("层序遍历：" + (str="") + getNodeByLevel(treeNode));
+        
+        System.out.println("树的深度：" + getDeep(treeNode));
+        
+        //左右子树交换
+        TreeNode node = changeNode(treeNode) ;
+        System.out.println(node);
+
         System.out.println("后序遍历(非递归)：" + (str="") + getNodeByPri2(treeNode));
         System.out.println("层序遍历(非递归)：" + (str="") + getNodeByLevel2(treeNode));
+
     }
 
     /**
@@ -162,6 +178,70 @@ public class TestDemo01 {
             }
         }
         return str ;
+    }
+ 
+    /**
+     * 层序遍历（递归）
+     * @param node
+     * @return
+     */
+    public static String getNodeByLevel(TreeNode node) {
+    	if(node==null) {
+    		return str ;
+    	}
+    	TreeNode root = node ;
+    	Queue<TreeNode> queue = new LinkedList<TreeNode>() ;
+    	queue.offer(root) ;
+    	while(!queue.isEmpty()) {
+    		node = queue.poll() ;
+    		str += node.getRoot() ;
+    		
+    		if(node.getLeftNode()!=null) {
+    			queue.add(node.getLeftNode()) ;
+    		}
+    		
+    		if(node.getRightNode()!=null) {
+    			queue.add(node.getRightNode()) ;
+    		}
+    	}
+    	
+    	return str ;
+    }
+    
+    /**
+     * 获取树的深度（递归）
+     * @param node
+     * @return
+     */
+    public static int getDeep(TreeNode node) {
+    	if(node==null) {
+    		return 0 ;
+    	}
+    	
+    	int l = getDeep(node.getLeftNode()) ;
+    	int r = getDeep(node.getRightNode()) ;
+    	
+    	return l>r?l+1:r+1;
+    }
+    
+    /**
+     * 左右子树相互交换
+     * @param node
+     * @return
+     */
+    public static TreeNode changeNode(TreeNode node) {
+    	if(node==null) {
+    		return null ;
+    	}
+    	
+    	TreeNode temp = node.getLeftNode() ;
+    	node.setLeftNode(node.getRightNode());
+    	node.setRightNode(temp);
+    	
+    	changeNode(node.getLeftNode()) ;
+    	changeNode(node.getRightNode()) ;
+    	
+    	return node ;
     }
 
     /**
