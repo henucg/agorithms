@@ -10,7 +10,7 @@ public class Test01 {
 	}
 
 	/**
-	 * 计算一个日期是当年的第几天
+	 * 计算一个日期是当年的第几天，省略格式校验
 	 * @param date yyyy-mm-dd
 	 * @return
 	 */
