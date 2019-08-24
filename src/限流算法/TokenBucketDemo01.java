@@ -26,16 +26,16 @@ public class TokenBucketDemo01 {
 	 * 判断是否限流
 	 * @return
 	 */
-	public boolean grant(){
+	public static boolean grant(){
 		long nowTime = getNowTime() ;
 		// 添加令牌操作
 		tokens = Math.min(capacity,tokens + (int)(nowTime - timeStamp) * rate) ;
 		timeStamp = nowTime ;
 		if(tokens<1){
-			System.out.println("获取不到令牌，限流");
+			// 获取不到令牌，限流
 			return false;
 		}else{
-			System.out.println("不限流");
+			// 不限流
 			tokens-- ;
 			return true ;
 		}

@@ -32,11 +32,11 @@ public class LeakyDemo01 {
 		water = Math.max(0,water - (int)(nowTime-timeStamp)*rate) ;
 		timeStamp = nowTime ;
 		if((water+1) > capacity){
-			System.out.println("限流");
+			// 限流
 			return false ;
 		}else{
 			water++ ;
-			System.out.println("不限流");
+			// 不限流
 			return true ;
 		}
 	}

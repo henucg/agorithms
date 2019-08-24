@@ -31,17 +31,17 @@ public class CounterDemo01 {
 		long nowTime = getTimeNow() ;
 		if(nowTime - currentTimeStamp < time){
 			if(count > num){
-				System.out.println("限流");
+				// 限流
 				return false ;
 			}else{
 				count ++ ;
-				System.out.println("不限流");
+				// 不限流
 				return true ;
 			}
 		}else{
 			currentTimeStamp = nowTime ;
 			count = 1 ;
-			System.out.println("不限流");
+			//不限流
 			return true ;
 		}
 	}
