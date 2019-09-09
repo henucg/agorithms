@@ -144,6 +144,6 @@ public class RBTree<T extends Comparable<T>> {
 	 * 后序遍历
 	 */
 	public void traversalByPos(){
-		
+
 	}
 }
