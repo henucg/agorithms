@@ -23,10 +23,12 @@ public class Test01 {
 		tree.put(98) ;
 
 		// 先序遍历
-		tree.traversalByPre();
+		//tree.traversalByPre();
 		// 中序遍历
-		tree.traversalByMid();;
+		//tree.traversalByMid();;
 		// 后序遍历
-		tree.traversalByPos();
+		//tree.traversalByPos();
+		// 深度遍历
+		tree.traversaByDeep();
 	}
 }

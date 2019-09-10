@@ -146,4 +146,29 @@ public class RBTree<T extends Comparable<T>> {
 	public void traversalByPos(){
 
 	}
+
+	/**
+	 * 深度遍历
+	 */
+	public void traversaByDeep(){
+		if(rootNode!=null){
+			TreeNode temp = rootNode ;
+			Stack<TreeNode> stack = new Stack<TreeNode>() ;
+			while(temp!=null){
+				System.out.println(temp.getValue());
+				if(temp.getLeftTree()!=null){
+					if(temp.getRightTree()!=null) {
+						stack.push(temp.getRightTree());
+					}
+					temp = temp.getLeftTree() ;
+				}else if(temp.getRightTree()!=null){
+					temp = temp.getRightTree() ;
+				}else if(!stack.empty()){
+					temp = stack.pop() ;
+				}else{
+					temp = null ;
+				}
+			}
+		}
+	}
 }
