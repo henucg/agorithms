@@ -169,7 +169,8 @@ public class TestDemo01 {
         while(node!=null || !s.empty()){
             while(node!=null){
                 s.push(node) ;
-                node = node.getLeftNode() ; }
+                node = node.getLeftNode() ;
+            }
 
             if(!s.empty()){
                 node = s.pop() ;
