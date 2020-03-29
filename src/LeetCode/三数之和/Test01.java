@@ -12,14 +12,23 @@ public class Test01 {
 
 	public static List<List<Integer>> threeSum(int[] nums) {
 		if(nums.length<3){
-			return null ;
+			return new ArrayList<>() ;
 		}
 
 		List<List<Integer>> result = new ArrayList<>() ;
 
 		Arrays.sort(nums);
 
-		for(int i=0;i<nums.length;i++){
+		for(int i=0;i<nums.length-2;i++){
+			// 后面的和不可能小于0
+			if(nums[i]>0){
+				break ;
+			}
+			// 防止重复
+			if(i>0 && nums[i]==nums[i-1]){
+				continue;
+			}
+
 			int m = i+1 ;
 			int n = nums.length - 1 ;
 			while(m<n){
