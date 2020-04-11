@@ -4,9 +4,9 @@ public class Test01 {
 	public static void main(String[] args) {
 		ListNode head = new ListNode(1) ;
 		ListNode l1 = new ListNode(2) ;
-		//ListNode l2 = new ListNode(2) ;
-		//ListNode l3 = new ListNode(3) ;
-		//ListNode l4 = new ListNode(3) ;
+		//TreeNode l2 = new TreeNode(2) ;
+		//TreeNode l3 = new TreeNode(3) ;
+		//TreeNode l4 = new TreeNode(3) ;
 
 		head.next = l1 ;
 		//l1.next = l2 ;
