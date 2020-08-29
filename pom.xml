@@ -19,13 +19,33 @@
 	      <version>2.5.0</version>
 	  </dependency>
 	  
-	<!-- XML转MAP -->
-	<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
-	<dependency>
-	    <groupId>dom4j</groupId>
-	    <artifactId>dom4j</artifactId>
-	    <version>1.6.1</version>
-	</dependency>
+		<!-- XML转MAP -->
+		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+	   <dependency>
+		   <groupId>com.alibaba</groupId>
+		   <artifactId>fastjson</artifactId>
+		   <version>1.2.15</version>
+	   </dependency>
+
+	   <!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+	   <dependency>
+		   <groupId>com.thoughtworks.xstream</groupId>
+		   <artifactId>xstream</artifactId>
+		   <version>1.4.9</version>
+	   </dependency>
+
+	   <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	   <dependency>
+		   <groupId>org.apache.poi</groupId>
+		   <artifactId>poi</artifactId>
+		   <version>3.17</version>
+	   </dependency>
 	  
  	</dependencies>
   
