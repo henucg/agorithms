@@ -1,4 +1,4 @@
-package LeetCode200.翻转字符串里的单词;
+package LeetCode.LeetCode200.翻转字符串里的单词;
 
 import java.util.Arrays;
 import java.util.Collections;

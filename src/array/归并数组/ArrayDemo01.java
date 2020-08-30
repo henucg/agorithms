@@ -1,4 +1,4 @@
-package array;
+package array.归并数组;
 
 import java.util.Arrays;
 

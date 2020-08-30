@@ -1,4 +1,4 @@
-package LeetCode50.搜索插入位置;
+package LeetCode.LeetCode50.搜索插入位置;
 
 public class Test01 {
 	public static void main(String[] args) {

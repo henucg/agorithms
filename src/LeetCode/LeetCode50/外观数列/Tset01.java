@@ -1,4 +1,4 @@
-package LeetCode50.外观数列;
+package LeetCode.LeetCode50.外观数列;
 
 public class Tset01 {
 

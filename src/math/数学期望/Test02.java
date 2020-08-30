@@ -1,4 +1,4 @@
-package 数学期望;
+package math.数学期望;
 
 import java.math.BigDecimal;
 import java.util.HashMap;

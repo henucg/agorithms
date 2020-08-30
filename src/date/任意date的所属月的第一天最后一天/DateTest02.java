@@ -1,4 +1,4 @@
-package date;
+package date.任意date的所属月的第一天最后一天;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package LeetCode100.x的平方根;
+package LeetCode.LeetCode100.x的平方根;
 
 public class Test02 {
 	public static void main(String[] args) {

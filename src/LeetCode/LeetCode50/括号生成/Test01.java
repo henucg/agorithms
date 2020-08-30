@@ -1,4 +1,4 @@
-package LeetCode50.括号生成;
+package LeetCode.LeetCode50.括号生成;
 
 import java.util.ArrayList;
 import java.util.List;

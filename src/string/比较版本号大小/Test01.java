@@ -1,4 +1,4 @@
-package compareStr;
+package string.比较版本号大小;
 
 /**
  * 比较版本号大小算法

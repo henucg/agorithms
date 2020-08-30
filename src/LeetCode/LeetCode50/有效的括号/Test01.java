@@ -1,4 +1,4 @@
-package LeetCode50.有效的括号;
+package LeetCode.LeetCode50.有效的括号;
 
 public class Test01 {
 	public static void main(String[] args) {

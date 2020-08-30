@@ -1,4 +1,4 @@
-package 最长公共子字符串;
+package string.最长公共子字符串;
 
 public class Test01 {
 	public static void main(String[] args) {

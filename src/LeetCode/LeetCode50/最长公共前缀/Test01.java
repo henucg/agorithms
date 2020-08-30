@@ -1,4 +1,4 @@
-package LeetCode50.最长公共前缀;
+package LeetCode.LeetCode50.最长公共前缀;
 
 public class Test01 {
 	public static void main(String[] args) {

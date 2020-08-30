@@ -1,4 +1,4 @@
-package LeetCode150.二叉树展开为链表;
+package LeetCode.LeetCode150.二叉树展开为链表;
 
 public class Test03 {
 	public static void main(String[] args) {

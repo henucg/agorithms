@@ -1,4 +1,4 @@
-package LeetCode50.最长回文子串;
+package LeetCode.LeetCode50.最长回文子串;
 
 public class Test01 {
 	public static void main(String[] args) {

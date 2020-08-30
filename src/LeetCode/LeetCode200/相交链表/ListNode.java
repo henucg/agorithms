@@ -1,4 +1,4 @@
-package LeetCode200.相交链表;
+package LeetCode.LeetCode200.相交链表;
 
 public class ListNode {
     int val;

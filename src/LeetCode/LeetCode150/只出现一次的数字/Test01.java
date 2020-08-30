@@ -1,4 +1,4 @@
-package LeetCode150.只出现一次的数字;
+package LeetCode.LeetCode150.只出现一次的数字;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package LeetCode150.二叉树的最小深度;
+package LeetCode.LeetCode150.二叉树的最小深度;
 
 import java.util.LinkedList;
 import java.util.Queue;

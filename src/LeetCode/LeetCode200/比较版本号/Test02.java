@@ -1,4 +1,4 @@
-package LeetCode200.比较版本号;
+package LeetCode.LeetCode200.比较版本号;
 
 public class Test02 {
     public static void main(String[] args) {

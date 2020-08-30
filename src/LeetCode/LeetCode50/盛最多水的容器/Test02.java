@@ -1,4 +1,4 @@
-package LeetCode50.盛最多水的容器;
+package LeetCode.LeetCode50.盛最多水的容器;
 
 public class Test02 {
 	public static void main(String[] args) {

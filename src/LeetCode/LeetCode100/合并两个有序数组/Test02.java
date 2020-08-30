@@ -1,4 +1,4 @@
-package LeetCode100.合并两个有序数组;
+package LeetCode.LeetCode100.合并两个有序数组;
 
 public class Test02 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package 两个集合不重复的数据;
+package list.两个集合不重复的数据;
 
 import java.util.HashSet;
 import java.util.Set;

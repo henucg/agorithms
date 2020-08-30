@@ -1,4 +1,4 @@
-package LeetCode50.Z字形变换;
+package LeetCode.LeetCode50.Z字形变换;
 
 import java.util.ArrayList;
 import java.util.List;

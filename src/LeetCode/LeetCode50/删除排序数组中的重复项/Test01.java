@@ -1,4 +1,4 @@
-package LeetCode50.删除排序数组中的重复项;
+package LeetCode.LeetCode50.删除排序数组中的重复项;
 
 public class Test01 {
 	public static void main(String[] args) {

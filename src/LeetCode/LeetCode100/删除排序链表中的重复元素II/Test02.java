@@ -1,4 +1,4 @@
-package LeetCode100.删除排序链表中的重复元素II;
+package LeetCode.LeetCode100.删除排序链表中的重复元素II;
 
 public class Test02 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode150.从中序与后序遍历序列构造二叉树;
+package LeetCode.LeetCode150.从中序与后序遍历序列构造二叉树;
 
 import java.util.HashMap;
 import java.util.Map;

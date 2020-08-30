@@ -1,4 +1,4 @@
-package LeetCode200.两数之和II输入有序数组;
+package LeetCode.LeetCode200.两数之和II输入有序数组;
 
 public class Test01 {
     public static void main(String[] args) {

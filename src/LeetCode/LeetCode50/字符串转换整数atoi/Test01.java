@@ -1,4 +1,4 @@
-package LeetCode50.字符串转换整数atoi;
+package LeetCode.LeetCode50.字符串转换整数atoi;
 
 public class Test01 {
 	public static void main(String[] args) {

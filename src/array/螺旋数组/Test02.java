@@ -1,4 +1,4 @@
-package 螺旋数组;
+package array.螺旋数组;
 
 public class Test02 {
 

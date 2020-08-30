@@ -1,4 +1,4 @@
-package LeetCode50.无重复字符的最长子串;
+package LeetCode.LeetCode50.无重复字符的最长子串;
 
 public class Test01 {
 	public static void main(String[] args) {

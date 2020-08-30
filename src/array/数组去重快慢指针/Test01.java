@@ -1,4 +1,4 @@
-package 数组去重快慢指针;
+package array.数组去重快慢指针;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package LeetCode150.环形链表;
+package LeetCode.LeetCode150.环形链表;
 
 public class Test02 {
 	public static void main(String[] args) {

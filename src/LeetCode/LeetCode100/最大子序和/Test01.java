@@ -1,4 +1,4 @@
-package LeetCode100.最大子序和;
+package LeetCode.LeetCode100.最大子序和;
 
 /**
  * 动态规划

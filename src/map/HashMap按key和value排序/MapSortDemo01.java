@@ -1,4 +1,4 @@
-package map;
+package map.HashMap按key和value排序;
 
 import java.util.ArrayList;
 import java.util.Collections;

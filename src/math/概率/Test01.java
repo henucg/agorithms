@@ -1,4 +1,4 @@
-package 概率;
+package math.概率;
 
 import java.util.Random;
 

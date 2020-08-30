@@ -1,4 +1,4 @@
-package LeetCode150.杨辉三角II;
+package LeetCode.LeetCode150.杨辉三角II;
 
 import java.util.ArrayList;
 import java.util.List;

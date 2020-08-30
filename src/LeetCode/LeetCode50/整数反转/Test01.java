@@ -1,4 +1,4 @@
-package LeetCode50.整数反转;
+package LeetCode.LeetCode50.整数反转;
 
 public class Test01 {
 	public static void main(String[] args) {

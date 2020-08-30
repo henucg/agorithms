@@ -1,4 +1,4 @@
-package LeetCode150.只出现一次的数字II;
+package LeetCode.LeetCode150.只出现一次的数字II;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package List;
+package list.List是否是按顺序排好的;
 
 import java.util.ArrayList;
 import java.util.Arrays;

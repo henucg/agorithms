@@ -1,4 +1,4 @@
-package LeetCode150.环形链表;
+package LeetCode.LeetCode150.环形链表;
 
 import java.util.HashMap;
 import java.util.Map;

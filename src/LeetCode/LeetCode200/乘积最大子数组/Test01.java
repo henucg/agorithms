@@ -1,4 +1,4 @@
-package LeetCode200.乘积最大子数组;
+package LeetCode.LeetCode200.乘积最大子数组;
 
 public class Test01 {
 	public static void main(String[] args) {

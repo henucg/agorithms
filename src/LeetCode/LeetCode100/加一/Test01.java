@@ -1,4 +1,4 @@
-package LeetCode100.加一;
+package LeetCode.LeetCode100.加一;
 
 public class Test01 {
 

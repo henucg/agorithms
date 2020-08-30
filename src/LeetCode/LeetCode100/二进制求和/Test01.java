@@ -1,4 +1,4 @@
-package LeetCode100.二进制求和;
+package LeetCode.LeetCode100.二进制求和;
 
 public class Test01 {
 	public static void main(String[] args) {

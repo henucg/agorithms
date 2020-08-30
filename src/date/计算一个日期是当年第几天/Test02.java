@@ -1,4 +1,4 @@
-package 计算一个日期是当年第几天;
+package date.计算一个日期是当年第几天;
 
 /**
  * 日期格式必须是yyyy-mm-dd

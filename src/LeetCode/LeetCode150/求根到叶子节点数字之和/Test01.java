@@ -1,4 +1,4 @@
-package LeetCode150.求根到叶子节点数字之和;
+package LeetCode.LeetCode150.求根到叶子节点数字之和;
 
 public class Test01 {
 	static int s = 0 ;

@@ -1,4 +1,4 @@
-package LeetCode50.整数转罗马数字;
+package LeetCode.LeetCode50.整数转罗马数字;
 
 /**
  * 贪心算法

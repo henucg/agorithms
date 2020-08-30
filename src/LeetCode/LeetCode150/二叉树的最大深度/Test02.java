@@ -1,4 +1,4 @@
-package LeetCode150.二叉树的最大深度;
+package LeetCode.LeetCode150.二叉树的最大深度;
 
 import javafx.util.Pair;
 

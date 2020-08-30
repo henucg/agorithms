@@ -1,4 +1,4 @@
-package LeetCode150.路径总和;
+package LeetCode.LeetCode150.路径总和;
 
 public class Test01 {
 	public static void main(String[] args) {

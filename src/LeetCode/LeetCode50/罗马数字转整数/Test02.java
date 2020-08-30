@@ -1,4 +1,4 @@
-package LeetCode50.罗马数字转整数;
+package LeetCode.LeetCode50.罗马数字转整数;
 
 public class Test02 {
 	public static void main(String[] args) {

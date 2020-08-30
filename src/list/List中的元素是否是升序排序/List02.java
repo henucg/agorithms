@@ -1,4 +1,4 @@
-package List;
+package list.List中的元素是否是升序排序;
 
 import java.util.Arrays;
 import java.util.List;

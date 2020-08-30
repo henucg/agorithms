@@ -1,4 +1,4 @@
-package 取出两个List不同的集合;
+package list.取出两个List不同的集合;
 
 import java.util.ArrayList;
 import java.util.HashMap;

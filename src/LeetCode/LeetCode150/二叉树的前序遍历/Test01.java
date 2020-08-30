@@ -1,4 +1,4 @@
-package LeetCode150.二叉树的前序遍历;
+package LeetCode.LeetCode150.二叉树的前序遍历;
 
 import java.util.ArrayList;
 import java.util.List;

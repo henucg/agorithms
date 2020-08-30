@@ -1,4 +1,4 @@
-package cese;
+package tools.将汉字转换为全拼;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

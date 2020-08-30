@@ -1,4 +1,4 @@
-package LeetCode100.删除排序链表中的重复元素;
+package LeetCode.LeetCode100.删除排序链表中的重复元素;
 
 public class ListNode {
 	int val;

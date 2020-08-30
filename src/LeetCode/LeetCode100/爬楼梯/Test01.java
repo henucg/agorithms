@@ -1,4 +1,4 @@
-package LeetCode100.爬楼梯;
+package LeetCode.LeetCode100.爬楼梯;
 
 /**
  * 数字比较大的时候会出现栈溢出

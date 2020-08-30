@@ -1,4 +1,4 @@
-package LeetCode50.两两交换链表中的节点;
+package LeetCode.LeetCode50.两两交换链表中的节点;
 
 public class Test01 {
 	public static void main(String[] args) {

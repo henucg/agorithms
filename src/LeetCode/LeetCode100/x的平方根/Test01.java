@@ -1,4 +1,4 @@
-package LeetCode100.x的平方根;
+package LeetCode.LeetCode100.x的平方根;
 
 /**
  * 数字比较大的时候性能比较差

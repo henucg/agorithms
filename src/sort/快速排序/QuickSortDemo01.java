@@ -1,4 +1,4 @@
-package sort;
+package sort.快速排序;
 
 /**
  * 快速排序，时间复杂度为 O(NlogN)

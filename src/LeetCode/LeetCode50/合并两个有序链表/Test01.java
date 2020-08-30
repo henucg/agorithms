@@ -1,4 +1,4 @@
-package LeetCode50.合并两个有序链表;
+package LeetCode.LeetCode50.合并两个有序链表;
 
 public class Test01 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode200.最大间距;
+package LeetCode.LeetCode200.最大间距;
 
 import java.util.Arrays;
 

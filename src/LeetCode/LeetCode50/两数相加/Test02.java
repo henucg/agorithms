@@ -1,4 +1,4 @@
-package LeetCode50.两数相加;
+package LeetCode.LeetCode50.两数相加;
 
 public class Test02 {
 	public static void main(String[] args) {

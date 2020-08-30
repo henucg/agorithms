@@ -1,4 +1,4 @@
-package LeetCode50.Z字形变换;
+package LeetCode.LeetCode50.Z字形变换;
 
 public class Test01 {
 	public static void main(String[] args) {

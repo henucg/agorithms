@@ -1,4 +1,4 @@
-package LeetCode150.平衡二叉树;
+package LeetCode.LeetCode150.平衡二叉树;
 
 public class TreeNode {
 

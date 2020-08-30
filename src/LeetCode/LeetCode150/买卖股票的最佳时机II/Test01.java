@@ -1,4 +1,4 @@
-package LeetCode150.买卖股票的最佳时机II;
+package LeetCode.LeetCode150.买卖股票的最佳时机II;
 
 public class Test01 {
 	public static void main(String[] args) {

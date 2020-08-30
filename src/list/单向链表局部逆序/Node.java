@@ -1,4 +1,4 @@
-package 单向链表局部逆序;
+package list.单向链表局部逆序;
 
 public class Node {
 	private int value ;

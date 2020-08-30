@@ -1,4 +1,4 @@
-package LeetCode150.有序链表转换二叉搜索树;
+package LeetCode.LeetCode150.有序链表转换二叉搜索树;
 
 import java.util.ArrayList;
 import java.util.List;

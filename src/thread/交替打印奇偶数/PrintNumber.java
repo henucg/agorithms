@@ -1,4 +1,4 @@
-package 交替打印奇偶数;
+package thread.交替打印奇偶数;
 
 public class PrintNumber implements Runnable {
 

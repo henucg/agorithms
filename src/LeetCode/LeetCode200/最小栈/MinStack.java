@@ -1,4 +1,4 @@
-package LeetCode200.最小栈;
+package LeetCode.LeetCode200.最小栈;
 
 import java.util.Stack;
 

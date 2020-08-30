@@ -1,4 +1,4 @@
-package LeetCode150.验证回文串;
+package LeetCode.LeetCode150.验证回文串;
 
 public class Test01 {
 	public static void main(String[] args) {

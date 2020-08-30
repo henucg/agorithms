@@ -1,4 +1,4 @@
-package LeetCode200.多数元素;
+package LeetCode.LeetCode200.多数元素;
 
 import java.util.HashMap;
 import java.util.Iterator;

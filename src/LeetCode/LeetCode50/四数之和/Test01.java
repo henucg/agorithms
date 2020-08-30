@@ -1,4 +1,4 @@
-package LeetCode50.四数之和;
+package LeetCode.LeetCode50.四数之和;
 
 import java.util.ArrayList;
 import java.util.Arrays;

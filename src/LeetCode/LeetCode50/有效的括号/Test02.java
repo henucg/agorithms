@@ -1,4 +1,4 @@
-package LeetCode50.有效的括号;
+package LeetCode.LeetCode50.有效的括号;
 
 import java.util.Stack;
 

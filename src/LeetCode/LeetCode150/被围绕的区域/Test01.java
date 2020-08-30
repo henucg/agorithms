@@ -1,4 +1,4 @@
-package LeetCode150.被围绕的区域;
+package LeetCode.LeetCode150.被围绕的区域;
 
 public class Test01 {
 	public static void main(String[] args) {

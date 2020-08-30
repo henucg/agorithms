@@ -1,4 +1,4 @@
-package LeetCode50.实现strStr;
+package LeetCode.LeetCode50.实现strStr;
 
 public class Test01 {
 	public static void main(String[] args) {

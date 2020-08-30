@@ -1,4 +1,4 @@
-package LeetCode150.对称二叉树;
+package LeetCode.LeetCode150.对称二叉树;
 
 public class Test01 {
 	public static void main(String[] args) {

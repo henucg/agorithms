@@ -1,4 +1,4 @@
-package LeetCode50.移除元素;
+package LeetCode.LeetCode50.移除元素;
 
 public class Test01 {
 

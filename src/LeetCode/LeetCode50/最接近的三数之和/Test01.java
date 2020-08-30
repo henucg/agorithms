@@ -1,4 +1,4 @@
-package LeetCode50.最接近的三数之和;
+package LeetCode.LeetCode50.最接近的三数之和;
 
 import java.util.Arrays;
 

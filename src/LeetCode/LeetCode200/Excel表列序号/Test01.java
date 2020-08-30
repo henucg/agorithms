@@ -1,4 +1,4 @@
-package LeetCode200.Excel表列序号;
+package LeetCode.LeetCode200.Excel表列序号;
 
 import java.util.HashMap;
 import java.util.Map;

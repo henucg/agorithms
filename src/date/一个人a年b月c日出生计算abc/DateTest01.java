@@ -1,4 +1,4 @@
-package date;
+package date.一个人a年b月c日出生计算abc;
 
 /**
  *  一个人a年b月c日出生，a*b*c = 428575，计算a,b,c

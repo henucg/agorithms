@@ -1,4 +1,4 @@
-package LeetCode150.LRU缓存机制;
+package LeetCode.LeetCode150.LRU缓存机制;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

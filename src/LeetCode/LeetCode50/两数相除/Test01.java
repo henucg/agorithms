@@ -1,4 +1,4 @@
-package LeetCode50.两数相除;
+package LeetCode.LeetCode50.两数相除;
 
 public class Test01 {
 

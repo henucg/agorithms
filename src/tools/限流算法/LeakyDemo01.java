@@ -1,4 +1,4 @@
-package 限流算法;
+package tools.限流算法;
 
 /**
  * 漏桶算法

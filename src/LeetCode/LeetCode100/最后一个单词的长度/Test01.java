@@ -1,4 +1,4 @@
-package LeetCode100.最后一个单词的长度;
+package LeetCode.LeetCode100.最后一个单词的长度;
 
 public class Test01 {
 

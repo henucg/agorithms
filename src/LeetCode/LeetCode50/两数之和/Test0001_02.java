@@ -1,4 +1,4 @@
-package LeetCode50.两数之和;
+package LeetCode.LeetCode50.两数之和;
 
 import java.util.Arrays;
 import java.util.HashMap;

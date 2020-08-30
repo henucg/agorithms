@@ -1,4 +1,4 @@
-package LeetCode100.爬楼梯;
+package LeetCode.LeetCode100.爬楼梯;
 
 public class Test03 {
 	public static void main(String[] args) {

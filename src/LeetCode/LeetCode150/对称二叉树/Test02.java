@@ -1,4 +1,4 @@
-package LeetCode150.对称二叉树;
+package LeetCode.LeetCode150.对称二叉树;
 
 import java.util.LinkedList;
 import java.util.Queue;

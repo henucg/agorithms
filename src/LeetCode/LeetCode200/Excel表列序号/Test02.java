@@ -1,4 +1,4 @@
-package LeetCode200.Excel表列序号;
+package LeetCode.LeetCode200.Excel表列序号;
 
 public class Test02 {
     public static void main(String[] args) {

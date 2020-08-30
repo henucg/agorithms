@@ -1,4 +1,4 @@
-package RedBlackTree;
+package tree.红黑树;
 
 import java.util.Random;
 

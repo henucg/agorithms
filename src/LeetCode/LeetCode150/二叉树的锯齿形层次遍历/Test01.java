@@ -1,4 +1,4 @@
-package LeetCode150.二叉树的锯齿形层次遍历;
+package LeetCode.LeetCode150.二叉树的锯齿形层次遍历;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

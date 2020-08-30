@@ -1,4 +1,4 @@
-package LeetCode100.相同的树;
+package LeetCode.LeetCode100.相同的树;
 
 public class TreeNode {
 

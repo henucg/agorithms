@@ -1,4 +1,4 @@
-package LeetCode150.路径总和II;
+package LeetCode.LeetCode150.路径总和II;
 
 import java.util.ArrayList;
 import java.util.List;

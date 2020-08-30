@@ -1,4 +1,4 @@
-package LeetCode50.回文数;
+package LeetCode.LeetCode50.回文数;
 
 public class Test02 {
 	public static void main(String[] args) {

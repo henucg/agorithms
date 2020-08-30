@@ -1,4 +1,4 @@
-package LeetCode100.合并两个有序数组;
+package LeetCode.LeetCode100.合并两个有序数组;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package 数组转化成数字;
+package array.数组转化成数字;
 
 public class Test01 {
 

@@ -1,4 +1,4 @@
-package LeetCode50.在排序数组中查找元素的第一个和最后一个位置;
+package LeetCode.LeetCode50.在排序数组中查找元素的第一个和最后一个位置;
 
 public class Test01 {
 	public static void main(String[] args) {

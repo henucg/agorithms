@@ -1,4 +1,4 @@
-package 全排列;
+package list.全排列;
 
 import java.util.HashMap;
 import java.util.Map;
